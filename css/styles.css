@@ -98,11 +98,14 @@ h2 {
 .introduce_myself_p {
   font-size: 26px;
   padding-bottom: 22px;
+  
+  
 }
 
 .introduce_myself_text {
   font-size: 22px;
   font-weight: 400;
+  line-height: 32px;
 }
 .test {
   font-weight: normal;
@@ -116,7 +119,7 @@ h2 {
 .procent-skills::after {
   content: "";
   display: block;
-  height: 9px;
+  height: 11px;
   width: 160px;
   background-image: linear-gradient(
     to right,
@@ -180,6 +183,7 @@ h2 {
 
 .skills__list {
   font-size: 22px;
+  padding-top: 0;
 }
 .skiils {
   padding-top: 110px;
@@ -187,14 +191,14 @@ h2 {
 
 .procent-skills {
   margin-left: 10px;
-  margin-bottom: 37px;
+  margin-bottom: 45px;
 }
 
 .introduce_myself {
   position: absolute;
   top: 540px;
   width: 1000px;
-  padding-right: 120px;
+  padding-right: 160px;
 
   padding-top: 150px;
   padding-bottom: 30px;
@@ -204,11 +208,12 @@ h2 {
 
 .experience {
   padding-top: 290px;
+  padding-left: 140px;
   display: flex;
 }
 
 .list-percent {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .img::after {
@@ -246,6 +251,7 @@ h3 {
   position: relative;
   list-style: none;
 }
+
 .experience {
   display: flex;
   
@@ -264,21 +270,19 @@ h3 {
 
 .list-image {
   display: flex;
+  position: absolute;
+  left: -20px;
+  align-items: flex-end;
 }
 
 .list-image > li:not(:last-child) {
   margin-right: 45px;
 }
 
-
 .spetial {
   margin-bottom: 20px;
   position: relative;
 }
-
-
-
-
 
 .integration {
   height: 100%;
@@ -309,6 +313,16 @@ h3 {
 }
 
 .list-image {
-  position: absolute;
-  left: -20px;
+  
+}
+
+.list-image li {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+img {
+  display: block;
 }
