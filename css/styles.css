@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Caviar Dreams";
-  src: url(../font/CaviarDreams.ttf);
+  src: url(../font/CaviarDreams.woff);
   font-style: normal;
   font-display: swap;
 }
@@ -12,6 +12,11 @@ ul {
 li {
   margin: 0;
   padding: 0;
+  margin-bottom: 8px;
+
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
 }
 body {
   padding-top: 15px;
@@ -70,17 +75,22 @@ a {
   list-style: none;
 }
 
-/* .list_item::before {
+.list_item::before {
   content: "";
+  top: 8px;
+  left: -23px;
+
+  position: absolute;
   display: inline-block;
   margin-right: 5px;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   background-color: #f53906;
-}  */
+}
 
 h2 {
   font-size: 46px;
+  font-weight: 400;
   margin: 0;
   margin-bottom: 22px;
   color: #fff;
@@ -92,6 +102,7 @@ h2 {
 
 .introduce_myself_text {
   font-size: 22px;
+  font-weight: 400;
 }
 .test {
   font-weight: normal;
@@ -192,7 +203,8 @@ h2 {
 }
 
 .experience {
-  padding-top: 260px;
+  padding-top: 290px;
+  display: flex;
 }
 
 .list-percent {
@@ -212,8 +224,17 @@ h2 {
   border: 4px dashed rgba(214, 211, 211, 0.8);
 }
 
+ul {
+  position: relative;
+  padding-top: 40px;
+}
+
 h3 {
+  position: absolute;
+  top: -20px;
+  left: -26px;
   margin: 0;
+  font-weight: 400;
   margin-bottom: 8px;
   font-size: 46px;
   color: rgb(62, 62, 62);
@@ -222,14 +243,15 @@ h3 {
 .list_item {
   color: #000;
   list-style: square;
+  position: relative;
+  list-style: none;
 }
 .experience {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
   padding-bottom: 25px;
-  height: 1025px;
+  height: 1075px;
 }
 .experience > ul {
   width: 335px;
@@ -248,17 +270,45 @@ h3 {
   margin-right: 45px;
 }
 
-.list_item::marker {
-  color: #f53906;
-  font-size: 1.5em;
+
+.spetial {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+
+
+
+.integration {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.integration_one ul {
+  margin-bottom: 30px;
+}
+
+.language {
+  margin-bottom: 80px;
+}
+
+.portfolio {
+  margin-bottom: 80px;
 }
 
 .contact {
-  margin-top: 25px;
+  margin-bottom: 80px;
 }
-.spetial {
-  margin-bottom: 20px;
-}
+
 .title_interest {
-  margin-bottom: 25px;
+  top: -43px;
+  left: -7px;
+}
+
+.list-image {
+  position: absolute;
+  left: -20px;
 }
