@@ -77,7 +77,7 @@ a {
 
 .list_item::before {
   content: "";
-  top: 8px;
+  top: 12px;
   left: -23px;
 
   position: absolute;
