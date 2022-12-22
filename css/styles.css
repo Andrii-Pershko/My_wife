@@ -229,7 +229,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-bottom: 25px;
-  height: 1050px;
+  height: 1025px;
 }
 .experience > ul {
   width: 335px;
@@ -256,7 +256,9 @@ h3 {
 .contact {
   margin-top: 25px;
 }
-
+.spetial {
+  margin-bottom: 20px;
+}
 .title_interest {
   margin-bottom: 25px;
 }
